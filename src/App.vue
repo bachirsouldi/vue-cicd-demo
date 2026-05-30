@@ -8,5 +8,14 @@ import PrivacyPolicy from './components/PrivacyPolicy.vue'
 
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { overflow: hidden; }
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #0f0c29;
+}
+#app {
+  width: 100%;
+  height: 100%;
+}
 </style>
